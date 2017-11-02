@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,31 +9,36 @@ namespace HesapMakinesi
     {
         static void Main(string[] args)
         {
-            //Console.Write("cümle giriniz:");
-            //string cumle = Console.ReadLine();
-            //string[] kelime = cumle.Split(new[] { ' ' });
-            //int kelimesayisi = 0;
-            //for (int i = 0; i <  kelime.Length; i++)
-            //{
-            //    if (cumle[i] == ' ' || cumle[i] == '.')
-            //        kelimesayisi++;
-            //}
-            //Console.WriteLine("Kelime Sayısı = {0}", kelimesayisi);
-
-            Console.Write("Cümle Giriniz: ");
-            string cumle = Console.ReadLine();
-            int kelimesayisi = 0, harfsayisi = 0;
-            for (int i = 0; i < cumle.Length; i++)
+            do
             {
+                Console.Write("İşlemi giriniz: ");
+                var islem = Console.ReadLine();
 
+                var islemSayi = islem.Split(new[] { '+', '-', '*', '/' });
 
-                if (cumle[i] == ' ' || cumle[i] == '.')
-                kelimesayisi++;
-                else
-                harfsayisi++;
-        }
-        Console.WriteLine("Kelime Sayısı = { 0 }\nHarf Sayısı = { 1 }", kelimesayisi, harfsayisi);
-        Console.ReadKey();
+                var sayi1 = int.Parse(islemSayi[0]);
+                var sayi2 = int.Parse(islemSayi[1]);
+
+                if (islem.IndexOf('+') > -1)
+                {
+                    Console.WriteLine(sayi1 + sayi2);
+                }
+                else if (islem.IndexOf('-') > -1)
+                {
+                    Console.WriteLine(sayi1 - sayi2);
+                }
+                else if (islem.IndexOf('*') > -1)
+                {
+                    Console.WriteLine(sayi1 * sayi2);
+                }
+                else if (islem.IndexOf('/') > -1)
+                {
+                    Console.WriteLine(sayi1 / sayi2);
+                }
+
+                Console.Write("devam etmek istiyor musunuz? ");
+
+            } while (Console.ReadLine() == "e");
         }
     }
 }
