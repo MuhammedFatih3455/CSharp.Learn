@@ -24,8 +24,6 @@ namespace Bina
         {
             Console.WriteLine("Kapı kapandı.");
         }
-        
-        
         */
     }
 }
