@@ -150,5 +150,28 @@ namespace KafeYonetim.Sunum.ConsoleApp
         {
 
         }
+
+        public static void DegerdenYuksekFiyatliUrunleriGetir()
+        {
+            Console.Clear();
+            Console.Write("Eşik değerini giriniz");
+            var doubleEsikDeger = double.Parse(Console.ReadLine());
+
+            var liste = DataManager.DegerdenYuksekFiyatliUrunleriGetir(doubleEsikDeger);
+            Console.Clear();
+
+            //Console.Write("Id".PadLeft(7));
+            Console.Write("Ad".PadLeft(25));
+            Console.Write("Fiyat".PadLeft(15));
+            Console.Write("Stok".PadLeft(7));
+            foreach (var urun in liste)
+            {
+                //Console.Write($"({urun.ID})".PadLeft(7));
+                Console.Write($"({urun.ad})".PadLeft(25));
+                Console.Write($"({urun.fiyat})".PadLeft(25));
+                Console.Write($"({urun.stok})".PadLeft(25));
+
+            }
+        }
     }
 }

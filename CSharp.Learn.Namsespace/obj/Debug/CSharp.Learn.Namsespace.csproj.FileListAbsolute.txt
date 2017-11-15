@@ -1,0 +1,6 @@
+C:\Users\BEM\Source\Repos\CSharp.Learn\CSharp.Learn.Namsespace\bin\Debug\CSharp.Learn.Namsespace.exe.config
+C:\Users\BEM\Source\Repos\CSharp.Learn\CSharp.Learn.Namsespace\bin\Debug\CSharp.Learn.Namsespace.exe
+C:\Users\BEM\Source\Repos\CSharp.Learn\CSharp.Learn.Namsespace\bin\Debug\CSharp.Learn.Namsespace.pdb
+C:\Users\BEM\Source\Repos\CSharp.Learn\CSharp.Learn.Namsespace\obj\Debug\CSharp.Learn.Namsespace.csprojResolveAssemblyReference.cache
+C:\Users\BEM\Source\Repos\CSharp.Learn\CSharp.Learn.Namsespace\obj\Debug\CSharp.Learn.Namsespace.exe
+C:\Users\BEM\Source\Repos\CSharp.Learn\CSharp.Learn.Namsespace\obj\Debug\CSharp.Learn.Namsespace.pdb

@@ -54,5 +54,11 @@
     <Compile Include="SiparisDurum.cs" />
     <Compile Include="Urun.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KafeYonetimData\KafeYonetimData.csproj">
+      <Project>{42c18cb8-ae52-45fc-8209-b43d87d18a97}</Project>
+      <Name>KafeYonetimData</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

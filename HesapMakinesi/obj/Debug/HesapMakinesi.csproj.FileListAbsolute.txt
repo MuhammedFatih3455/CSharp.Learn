@@ -1,0 +1,6 @@
+C:\Users\BEM\Source\Repos\CSharp.Learn\HesapMakinesi\bin\Debug\HesapMakinesi.exe.config
+C:\Users\BEM\Source\Repos\CSharp.Learn\HesapMakinesi\bin\Debug\HesapMakinesi.exe
+C:\Users\BEM\Source\Repos\CSharp.Learn\HesapMakinesi\bin\Debug\HesapMakinesi.pdb
+C:\Users\BEM\Source\Repos\CSharp.Learn\HesapMakinesi\obj\Debug\HesapMakinesi.csprojResolveAssemblyReference.cache
+C:\Users\BEM\Source\Repos\CSharp.Learn\HesapMakinesi\obj\Debug\HesapMakinesi.exe
+C:\Users\BEM\Source\Repos\CSharp.Learn\HesapMakinesi\obj\Debug\HesapMakinesi.pdb
